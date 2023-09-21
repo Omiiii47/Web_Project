@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Teko:wght@300&family=Tilt+Prism&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+  
+    border: 2px solid pink;
+    background: black;
+  
+  }
+
+
+footer{
+    height: 9vh;
+    background-color: black;
+    color:white;
+    font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Tilt Prism', cursive;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+ text-decoration: none;
+
+    color: white;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+}
+
+nav ul li a:hover{
+    background-color:violet;
+   font-weight: bolder;
+   }
+   
+
+nav ul{
+    height: 96px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 30px;
+  
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+}
+.container{
+    min-height: calc(100vh - 96px - 9vh);
+}
+
+img{
+    height: 96px;
+    width: 136px;
+}
+
+
+.search{
+   
+    display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 0 0 22px;
+margin: 0px 15px -3px 68px;
+}
+
+.search input{
+    height: 33px;
+    width: 551px;
+    border-radius: 8px ;
+    margin: 0px -543px 0px 65px;
+   
+}
+
+.btn{
+    padding: 7px 22px;
+margin: 0px 0 0 551px;
+background-color: pink;
+border-radius: 4px;
+cursor: pointer;
+}
+ .container .slider img{
+ 
+    display: flex;
+margin: 12px auto;
+width: 69vw;
+height: 357px;
+
+ } 
+
+ .card h2{
+    padding: 0 0 0 34vw;
+   font-family: 'Qwitcher Grypen', cursive;
+   font-family: 'Teko', sans-serif;
+   font-family: 'Tilt Prism', cursive;
+   font-weight: bolder;
+}
+ 
+
+ .card{
+    
+    max-width: 85vw;
+margin: auto;
+ }
+
+
+ .my1{
+    margin: 30px;
+ }
+ .lines{
+    width: 9vw;
+text-align: center;
+ }
+
+ .card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 110px 0 110px;
+ }
+
+ .cards{
+    display:flex ;
+    align-items: center;
+    justify-items: center;
+
+    justify-content: center;
+ }
